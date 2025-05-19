@@ -15,7 +15,7 @@ const resList  = [
 "Desserts",
 "Beverages"
 ],
-"avgRating": 4.1,
+"avgRating": 3.9,
 "parentId": "21809",
 "avgRatingString": "4.1",
 "totalRatingsString": "17K+",
@@ -91,7 +91,7 @@ const resList  = [
 "Bakery",
 "Beverages"
 ],
-"avgRating": 4.1,
+"avgRating": 3.7,
 "parentId": "4444",
 "avgRatingString": "4.1",
 "totalRatingsString": "1.7K+",
@@ -231,7 +231,7 @@ const resList  = [
 "Maharashtrian",
 "Sweets"
 ],
-"avgRating": 4.4,
+"avgRating": 4.1,
 "veg": true,
 "parentId": "319582",
 "avgRatingString": "4.4",
@@ -320,7 +320,7 @@ const resList  = [
 "Bakery",
 "Ice Cream"
 ],
-"avgRating": 4.4,
+"avgRating": 4.5,
 "parentId": "195515",
 "avgRatingString": "4.4",
 "totalRatingsString": "2.3K+",
@@ -405,7 +405,7 @@ const resList  = [
 "Italian",
 "Desserts"
 ],
-"avgRating": 4.5,
+"avgRating": 3.5,
 "parentId": "281782",
 "avgRatingString": "4.5",
 "totalRatingsString": "5.0K+",

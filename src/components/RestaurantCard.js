@@ -23,7 +23,7 @@ const RestaurantCard = (props) => {
       <p>{cuisines.join(" , ")}</p>
       <p>{avgRating} Stars</p>
       <p>{costForTwo}</p>
-      {/* <p>{sla?.slaString || `${sla?.deliveryTime} mins`}</p> */}
+      <p>{sla?.slaString || `${sla?.deliveryTime} mins`}</p>
       <p>{areaName}</p>
     </div>
   );
