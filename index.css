@@ -25,7 +25,7 @@ cursor: pointer;
 
 .restaurant-card{
     padding: 5px;
-    width: 200px;
+    width: 165px;
     margin: 5px;
     background-color: lightgray;
     
@@ -42,7 +42,7 @@ cursor: pointer;
 .restaurant-container{
     display: flex;
     flex-wrap: wrap;
-     justify-content: center; 
+     /* justify-content: center;  */
   padding: 1px;
   gap: 16px;
 }
@@ -54,9 +54,24 @@ cursor: pointer;
     justify-content: space-between;
     padding: 20px;
 }
-.restaurant-container{
+/* .restaurant-container{
     display: flex;
     flex-wrap: wrap;
     
+} */
+.shimmer-card{
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: lightgray;
 }
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
 
+}
+.login{
+    padding: 0px 20px;
+    cursor: pointer;
+    font-size: medium;
+}
