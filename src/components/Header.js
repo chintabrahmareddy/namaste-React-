@@ -19,9 +19,11 @@ const [btnNameReact , setBtnNameReact] = useState("Login");
           <li>Contact</li>
           <li>Cart</li>
           <button className="login" 
-          onClick={() =>
-             {setBtnNameReact("Logout");  
-             }}
+         onClick={() => {
+              btnNameReact === "Login"
+                ? setBtnNameReact("Logout")
+                : setBtnNameReact("Login");
+            }}
              >
             {btnNameReact}
             </button>
@@ -31,3 +33,5 @@ const [btnNameReact , setBtnNameReact] = useState("Login");
   );
 };
 export default Header;
+
+
