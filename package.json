@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/chintabrahmareddy/namaste-React-#readme",
   "devDependencies": {
-    "parcel": "^2.15.1"
+    "parcel": "^2.9.3"
   },
   "dependencies": {
     "react": "^19.1.0",
