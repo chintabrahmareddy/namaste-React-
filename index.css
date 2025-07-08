@@ -1,4 +1,4 @@
-.header{
+/* .header{
     
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,7 @@ cursor: pointer;
 .restaurant-container{
     display: flex;
     flex-wrap: wrap;
-     /* justify-content: center;  */
+  
   padding: 1px;
   gap: 16px;
 }
@@ -55,11 +55,8 @@ cursor: pointer;
     justify-content: space-between;
     padding: 20px;
 }
-/* .restaurant-container{
-    display: flex;
-    flex-wrap: wrap;
-    
-} */
+
+
 .shimmer-card{
     margin: 20px;
     width: 200px;
@@ -163,4 +160,6 @@ button:hover {
   justify-content: space-between;
   font-size: 13px;
   color: #444;
-}
+} */
+@import "tailwindcss";
+

@@ -12,14 +12,14 @@ const RestaurantCard = (props) => {
   } = resData;
 
   return (
-    <div className="restaurant-card" >
+    <div className=" m-0 p-4 w-[250px] cursor-pointer hover:bg-gray-100" >
       <img
-        className="restaurant-logo"
+        className="w-50 h-50 rounded-lg"
         src={CDN_URL+cloudinaryImageId }
         alt={name}
         
       />
-      <h4>{name}</h4>
+      <h4 className="font-bold py-3 ">{name}</h4>
       <p>{cuisines.join(" , ")}</p>
       <p>{avgRating} Stars</p>
       <p>{costForTwo}</p>
@@ -28,4 +28,15 @@ const RestaurantCard = (props) => {
     </div>
   );
 };
+  export const withPromotedLabel = (RestaurantCard) => {
+  return (props) => {
+    return (
+      <div>
+        <label>promoted</label>
+        <RestaurantCard {...props} />
+      </div>
+    );
+  };
+}
+
 export default RestaurantCard;
